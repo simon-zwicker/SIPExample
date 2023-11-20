@@ -1,0 +1,375 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "bullet_introduction_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is SIP?"
+          }
+        }
+      }
+    },
+    "bullet_introduction_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is SIP used for?"
+          }
+        }
+      }
+    },
+    "bullet_introduction_3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How should I best start learning?"
+          }
+        }
+      }
+    },
+    "bullet_introduction_4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isn't it already outdated?"
+          }
+        }
+      }
+    },
+    "explanation_introduction_1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you currently asking yourself these questions and not getting any further? Nowadays, there is information on SIP like sand on the beach. However, it is difficult to find a course or article that quickly and easily explains the fundamental aspects of the SIP protocol. When I started, I didn't have much luck either. Of course, this topic is also very complex if you want to understand how everything works."
+          }
+        }
+      }
+    },
+    "explanation_introduction_2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When I realized that it wasn't easy to get into this topic, I made it my goal to develop a learning app. This app should provide a quick overview of telephony and specifically the SIP protocol in a short amount of time. Of course, the app is reduced to the most important aspects, but there is still a lot more that would be interesting to explore. Even if you don't have the opportunity to experiment at home, my app offers two AR(Augmented Reality) scenes where you can experience telephony interactively."
+          }
+        }
+      }
+    },
+    "explanation_sip_reallife_1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's start from scratch. SIP(Session Initiation Protocol) is simply a protocol used to establish a communication session. However, the principle of SIP can not only be viewed from a technical perspective but also in everyday life."
+          }
+        }
+      }
+    },
+    "explanation_sip_reallife_2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's take a look at an example using the slides to illustrate it a bit."
+          }
+        }
+      }
+    },
+    "explanation_sip_reallife_3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now it should be clearer what the SIP protocol is. In the next lesson, we will take a closer look at how the SIP protocol works technically."
+          }
+        }
+      }
+    },
+    "menu_section_ar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AR scenes"
+          }
+        }
+      }
+    },
+    "menu_section_lessons" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lessons"
+          }
+        }
+      }
+    },
+    "menu_title_data_transfer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data transfer"
+          }
+        }
+      }
+    },
+    "menu_title_data_transfer_guide" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AR data transfer example"
+          }
+        }
+      }
+    },
+    "menu_title_future_telephony" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Future of telephony"
+          }
+        }
+      }
+    },
+    "menu_title_introduction" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduction"
+          }
+        }
+      }
+    },
+    "menu_title_sip_guide" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIP AR example"
+          }
+        }
+      }
+    },
+    "menu_title_sip_reallife" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIP in real life"
+          }
+        }
+      }
+    },
+    "menu_title_sip_technical" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIP technical"
+          }
+        }
+      }
+    },
+    "menu_title_tracing_calls" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tracing calls"
+          }
+        }
+      }
+    },
+    "navigation_title_app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIP Guide"
+          }
+        }
+      }
+    },
+    "slide_1_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is Jenny. She is at a loss and needs help, so she decides to ask someone who can help her."
+          }
+        }
+      }
+    },
+    "slide_1_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decide to ask for help"
+          }
+        }
+      }
+    },
+    "slide_2_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "She remembers she could ask her colleague Luke. She starts the conversation with \"Hey Luke,\" sending an \"invitation signal\" to Luke. In this example, of course, the \"invitation signal\" is not transmitted by a message but in the form of an audio signal."
+          }
+        }
+      }
+    },
+    "slide_2_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send invitation signal"
+          }
+        }
+      }
+    },
+    "slide_3_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luke has received the signal and sends back an \"OK response signal\" with \"Hey Jenny, what's up?\". This confirms that Luke has received the \"invitation signal\" from Jenny."
+          }
+        }
+      }
+    },
+    "slide_3_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm invitation"
+          }
+        }
+      }
+    },
+    "slide_4_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After these two signals, the conversation can begin. The connection is established, so to speak. Now, Luke and Jenny communicate together and audio signals are sent back and forth."
+          }
+        }
+      }
+    },
+    "slide_4_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection is ready to speak"
+          }
+        }
+      }
+    },
+    "slide_5_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio signals are also sent back and forth here, so the two can communicate with each other."
+          }
+        }
+      }
+    },
+    "slide_5_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Two way communication takes place"
+          }
+        }
+      }
+    },
+    "slide_6_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jenny is happy because she has solved her problem and thanks Luke. Now, Jenny says goodbye and sends a \"Bye signal\" to Luke that she would like to end the conversation."
+          }
+        }
+      }
+    },
+    "slide_6_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send bye signal"
+          }
+        }
+      }
+    },
+    "slide_7_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luke also says goodbye and immediately sends an \"OK response signal\" to confirm that he has received Jenny's \"Bye signal\". Accordingly, the conversation is successfully completed."
+          }
+        }
+      }
+    },
+    "slide_7_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm bye signal"
+          }
+        }
+      }
+    },
+    "slide_8_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Call terminated"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

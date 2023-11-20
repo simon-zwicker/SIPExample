@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SIPExampleApp: App {
+
+    // MARK: - Properties
+    @AppStorage("appVersion") var appVersion = "1.0"
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
