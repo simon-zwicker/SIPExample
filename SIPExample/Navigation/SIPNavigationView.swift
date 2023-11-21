@@ -13,16 +13,10 @@ struct SIPNavigationView: View {
         List {
             Section("menu_section_lessons") {
                 ForEach(Menu.allCases.filter { $0.section == 0}, id: \.self) { menuItem in
-                    NavigationLink(destination: MenuDetailView(detail: menuItem)) {
+                    NavigationLink(value: menuItem) {
                         Label(
-                            title: {
-                                Text(LocalizedStringResource(stringLiteral: menuItem.title))
-                            },
-                            icon: {
-                                Image(systemName: menuItem.icon)
-                                    .font(.system(size: 14.0, weight: .bold))
-                                    .foregroundColor(.indigo)
-                            }
+                            title: { Text(LocalizedStringResource(stringLiteral: menuItem.title)) },
+                            icon: { Image(systemName: menuItem.icon) }
                         )
                     }
                 }
@@ -30,21 +24,18 @@ struct SIPNavigationView: View {
 
             Section("menu_section_ar") {
                 ForEach(Menu.allCases.filter { $0.section == 1}, id: \.self) { menuItem in
-                    NavigationLink(destination: MenuDetailView(detail: menuItem)) {
+                    NavigationLink(value: menuItem) {
                         Label(
-                            title: {
-                                Text(LocalizedStringResource(stringLiteral: menuItem.title))
-                            },
-                            icon: {
-                                Image(systemName: menuItem.icon)
-                                    .font(.system(size: 14.0, weight: .bold))
-                                    .foregroundColor(.indigo)
-                            }
+                            title: { Text(LocalizedStringResource(stringLiteral: menuItem.title)) },
+                            icon: { Image(systemName: menuItem.icon) }
                         )
                     }
                 }
             }
         }
+        .navigationDestination(for: Menu.self, destination: { menu in
+            MenuDetailView(detail: menu)
+        })
         .navigationTitle(Text("navigation_title_app"))
     }
 }

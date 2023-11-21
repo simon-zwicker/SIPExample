@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum Menu: CaseIterable {
+enum Menu: Hashable, CaseIterable {
     case introduction
     case sipInRealLife
     case sipTechnical
