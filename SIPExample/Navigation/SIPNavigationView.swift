@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SIPNavigationView: View {
 
+    @State var selected: Menu?
+
     var body: some View {
         List {
             Section("menu_section_lessons") {
@@ -19,6 +21,10 @@ struct SIPNavigationView: View {
                             icon: { Image(systemName: menuItem.icon) }
                         )
                     }
+                    .onTapGesture(perform: {
+                        self.selected = menuItem
+                    })
+                    .listRowBackground(self.selected == menuItem ? Color.green : Color.clear)
                 }
             }
 
@@ -30,6 +36,10 @@ struct SIPNavigationView: View {
                             icon: { Image(systemName: menuItem.icon) }
                         )
                     }
+                    .onTapGesture(perform: {
+                        self.selected = menuItem
+                    })
+                    .listRowBackground(self.selected == menuItem ? Color.green : Color.clear)
                 }
             }
         }
